@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Socket Practice!
+    script(async='', src='/socket.io/socket.io.js')
+    script(src='https://code.jquery.com/jquery-1.10.2.js')
+    script(async='', src='/socketconnection.js')
+  body
+    h1 Hello World!
+    ul#future
+      for message in messages
+        li= message.message
+      else
+        li sorry, no message!
+    form#form
+      input#chat_input(type='text', name='input')
+      input(type='submit', value='Submit')
