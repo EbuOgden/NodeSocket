@@ -10,7 +10,7 @@ Install nodemon for auto-refresh with : <code>  npm install --save nodemon </cod
 Type <code>"nodemon index.js"</code> for start
 
 <ul>
-<li><p>P.S : You have already started mongodb</p></li>
+<li><p>P.S : You have must already started mongo</p></li>
 </ul>
 
 Go web page and type  <code>localhost:3000 </code>
